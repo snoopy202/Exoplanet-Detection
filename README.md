@@ -10,6 +10,8 @@ The dataset that we've used is a kaggle dataset : https://www.kaggle.com/keplers
 
 This contains data of the luminosity flux of over 5000 stars. Precisely the dataset has dimensions (5087, 3198), which the first column is the target value. An important thing to consider is the fact that the dataset is unbalanced. There are very few positive examples, less than 1% of the entire training set and the same in the test set. Here below we can see an example of signals and the respective smoothed version.
 
+![Test Image 1](signal1.png)
+
 ## Machine Learning Model ##
 For this task, we used a CNN and a SVC. CNN ( Convolution Neural Newtork ) is probably one of the most famous nerual network in deep learning; SVC ( Support Vector Classifier ) is a Machine Learing model that has good performance and could approach the results of deep neural network. Above you can find a Report when you can read all the details and the results, even the References.
 
